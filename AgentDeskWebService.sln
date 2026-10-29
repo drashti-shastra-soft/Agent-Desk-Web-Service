@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentDeskWebService", "AgentDeskWebService\AgentDeskWebService.csproj", "{9650BEE1-2B5F-45D7-A064-BF28AC985584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentDeskWebService.Domain", "AgentDeskWebService.Domain\AgentDeskWebService.Domain.csproj", "{BCC99AA0-1A68-4E50-87DC-76A851F50E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentDeskWebService.Infrastructure", "AgentDeskWebService.Infrastructure\AgentDeskWebService.Infrastructure.csproj", "{F72F4174-01E8-4547-B22F-44A6C63649A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentDeskWebService.Persistence", "AgentDeskWebService.Persistence\AgentDeskWebService.Persistence.csproj", "{FFD00392-86A7-4E5A-B19A-62A38C8AF167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentDeskWebService.Repository", "AgentDeskWebService.Repository\AgentDeskWebService.Repository.csproj", "{FD3D4868-3E43-437B-B8F7-FC14E279D047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentDeskWebService.Service", "AgentDeskWebService.Service\AgentDeskWebService.Service.csproj", "{4A365D4D-ABCC-4441-8471-BC7DB5AB55F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9650BEE1-2B5F-45D7-A064-BF28AC985584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9650BEE1-2B5F-45D7-A064-BF28AC985584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9650BEE1-2B5F-45D7-A064-BF28AC985584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9650BEE1-2B5F-45D7-A064-BF28AC985584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC99AA0-1A68-4E50-87DC-76A851F50E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC99AA0-1A68-4E50-87DC-76A851F50E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC99AA0-1A68-4E50-87DC-76A851F50E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC99AA0-1A68-4E50-87DC-76A851F50E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72F4174-01E8-4547-B22F-44A6C63649A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72F4174-01E8-4547-B22F-44A6C63649A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72F4174-01E8-4547-B22F-44A6C63649A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72F4174-01E8-4547-B22F-44A6C63649A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD00392-86A7-4E5A-B19A-62A38C8AF167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD00392-86A7-4E5A-B19A-62A38C8AF167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD00392-86A7-4E5A-B19A-62A38C8AF167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD00392-86A7-4E5A-B19A-62A38C8AF167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3D4868-3E43-437B-B8F7-FC14E279D047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3D4868-3E43-437B-B8F7-FC14E279D047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3D4868-3E43-437B-B8F7-FC14E279D047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3D4868-3E43-437B-B8F7-FC14E279D047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A365D4D-ABCC-4441-8471-BC7DB5AB55F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A365D4D-ABCC-4441-8471-BC7DB5AB55F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A365D4D-ABCC-4441-8471-BC7DB5AB55F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A365D4D-ABCC-4441-8471-BC7DB5AB55F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CA1B552-9D2E-4395-B874-4F6AD56815A8}
+	EndGlobalSection
+EndGlobal

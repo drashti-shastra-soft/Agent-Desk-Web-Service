@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fd7a1a038b434756a159e01da4e2fc6e" Name="Diagram1" ZoomLevel="100">
+        <EntityTypeShape EntityType="AgentDeskDBModel.Address" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.Agency" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.Client" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.ClientDocument" Width="1.5" PointX="7.75" PointY="6.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.ClientFinancialInfo" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.ClientHealth" Width="1.5" PointX="9.75" PointY="6.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.ClientIdentification" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.Company" Width="1.5" PointX="11.75" PointY="5.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.Group" Width="1.5" PointX="7.75" PointY="11.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.Policy" Width="1.5" PointX="5.25" PointY="6.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.PolicyDocument" Width="1.5" PointX="9.75" PointY="11.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.PolicyNominee" Width="1.5" PointX="11.75" PointY="11.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.PolicyPremium" Width="1.5" PointX="0.75" PointY="8.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.PolicyStatu" Width="1.5" PointX="3" PointY="12.625" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.PolicyType" Width="1.5" PointX="0.75" PointY="5.25" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.Role" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AgentDeskDBModel.User" Width="1.5" PointX="13.75" PointY="3.75" />
+        <AssociationConnector Association="AgentDeskDBModel.FK_Policies_PolicyStatus" />
+        <AssociationConnector Association="AgentDeskDBModel.FK_Policies_PolicyType" />
+        <AssociationConnector Association="AgentDeskDBModel.FK_PolicyStatus_PolicyType" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
